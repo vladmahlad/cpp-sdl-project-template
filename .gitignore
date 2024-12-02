@@ -1,2 +1,5 @@
 # CMake build files
 build/
+
+# Editor specific files
+.vscode/
