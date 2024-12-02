@@ -1,0 +1,4 @@
+[submodule "submodules/SDL"]
+	path = submodules/SDL
+	url = https://github.com/vladmahlad/SDL.git
+	branch = release-2.30.x
