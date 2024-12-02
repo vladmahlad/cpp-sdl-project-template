@@ -1,8 +1,7 @@
-#include <iostream>
+#include <SDL.h>
 
 int main(int, char**)
 {
-    std::cout << "Hello, World!" << std::endl;
-
+    SDL_ShowSimpleMessageBox(SDL_MESSAGEBOX_INFORMATION, "Message box", "Hello, World!", nullptr);
     return 0;
 }
